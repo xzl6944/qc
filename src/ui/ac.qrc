@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>acmonitorUI.qml</file>
+        <file>acenergyUI.qml</file>
+        <file>acsettingUI.qml</file>
+        <file>acalarmUI.qml</file>
+        <file>achistoryUI.qml</file>
+    </qresource>
+</RCC>

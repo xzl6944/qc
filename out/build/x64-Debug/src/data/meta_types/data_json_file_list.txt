@@ -1,0 +1,2 @@
+D:/project/ac_energy_saver/out/build/x64-Debug/src/data/data_autogen/include/../EWIEGA46WW/moc_datalogger.cpp.json
+D:/project/ac_energy_saver/out/build/x64-Debug/src/data/data_autogen/include/../EWIEGA46WW/moc_energycalc.cpp.json

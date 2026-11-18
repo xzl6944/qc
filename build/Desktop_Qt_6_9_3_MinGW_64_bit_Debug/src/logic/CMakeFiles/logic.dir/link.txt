@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc liblogic.a CMakeFiles/logic.dir/logic_autogen/mocs_compilation.cpp.obj CMakeFiles/logic.dir/pidcontroller.cpp.obj CMakeFiles/logic.dir/strategyengine.cpp.obj CMakeFiles/logic.dir/alarmengine.cpp.obj
+C:\Qt\Tools\mingw1310_64\bin\ranlib.exe liblogic.a

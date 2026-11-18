@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/data/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "logic::@ea15d1ede4aa1a4a3a18"
+		}
+	],
+	"id" : "data_autogen_timestamp_deps::@e5ccf62099f28249f155",
+	"isGeneratorProvided" : true,
+	"name" : "data_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/data",
+		"source" : "src/data"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc libsimulator.a CMakeFiles/simulator.dir/simulator_autogen/mocs_compilation.cpp.obj CMakeFiles/simulator.dir/roommodel.cpp.obj
+C:\Qt\Tools\mingw1310_64\bin\ranlib.exe libsimulator.a

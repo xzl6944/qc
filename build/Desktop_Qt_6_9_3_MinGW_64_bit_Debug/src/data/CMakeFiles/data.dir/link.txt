@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc libdata.a CMakeFiles/data.dir/data_autogen/mocs_compilation.cpp.obj CMakeFiles/data.dir/datalogger.cpp.obj CMakeFiles/data.dir/energycalc.cpp.obj
+C:\Qt\Tools\mingw1310_64\bin\ranlib.exe libdata.a

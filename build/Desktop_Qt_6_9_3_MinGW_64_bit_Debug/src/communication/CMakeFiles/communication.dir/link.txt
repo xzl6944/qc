@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc libcommunication.a CMakeFiles/communication.dir/communication_autogen/mocs_compilation.cpp.obj CMakeFiles/communication.dir/modbusmaster.cpp.obj
+C:\Qt\Tools\mingw1310_64\bin\ranlib.exe libcommunication.a

@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "RoomModel",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "RoomModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "roommodel.h",
+    "outputRevision": 69
+}

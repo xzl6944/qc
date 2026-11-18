@@ -1,0 +1,72 @@
+[
+    {
+        "classes": [
+            {
+                "className": "ModbusMaster",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "ModbusMaster",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "unit",
+                                "type": "QModbusDataUnit"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "registersRead",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "connected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "errorMsg",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 3,
+                        "name": "readReady",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "error",
+                                "type": "QModbusDevice::Error"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "handleError",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "modbusmaster.h",
+        "outputRevision": 69
+    }
+]

@@ -1,0 +1,9 @@
+-rootPath
+D:/project/ac_energy_saver/src/app
+-cmake-output
+-output-file
+D:/project/ac_energy_saver/out/build/x64-Debug/src/app/.qt/qml_imports/App_build.cmake
+-importPath
+D:/project/ac_energy_saver/out/build/x64-Debug/src/app
+-importPath
+C:/Qt/6.9.3/msvc2022_64/qml

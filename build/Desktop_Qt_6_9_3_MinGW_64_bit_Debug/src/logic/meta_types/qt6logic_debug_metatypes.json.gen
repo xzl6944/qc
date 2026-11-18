@@ -1,0 +1,34 @@
+[
+    {
+        "classes": [
+            {
+                "className": "AlarmEngine",
+                "lineNumber": 24,
+                "object": true,
+                "qualifiedClassName": "AlarmEngine",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "alarm",
+                                "type": "AlarmRecord"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "newAlarmTriggered",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "alarmengine.h",
+        "outputRevision": 69
+    }
+]

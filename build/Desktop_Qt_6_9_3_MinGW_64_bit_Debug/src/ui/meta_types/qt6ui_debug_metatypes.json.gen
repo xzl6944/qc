@@ -1,0 +1,308 @@
+[
+    {
+        "classes": [
+            {
+                "className": "AlarmModel",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "AlarmModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "record",
+                                "type": "AlarmRecord"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addAlarm",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "alarmmodel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ChartModule",
+                "lineNumber": 7,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "tempHistory",
+                        "notify": "dataChanged",
+                        "read": "tempHistory",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "ChartModule",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "dataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "t1",
+                                "type": "float"
+                            },
+                            {
+                                "name": "tar1",
+                                "type": "float"
+                            },
+                            {
+                                "name": "t2",
+                                "type": "float"
+                            },
+                            {
+                                "name": "tar2",
+                                "type": "float"
+                            },
+                            {
+                                "name": "t3",
+                                "type": "float"
+                            },
+                            {
+                                "name": "tar3",
+                                "type": "float"
+                            },
+                            {
+                                "name": "t4",
+                                "type": "float"
+                            },
+                            {
+                                "name": "tar4",
+                                "type": "float"
+                            },
+                            {
+                                "name": "power",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "appendData",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "chartmodule.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ZoneModel",
+                "lineNumber": 8,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "allPowerOn",
+                        "notify": "allPowerStateChanged",
+                        "read": "allPowerOn",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "ZoneModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoneId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newTemp",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "requestTempChange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoneId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "modeIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "requestModeChange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoneId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "isOn",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "requestPowerStateChange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "allPowerStateChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zones",
+                                "type": "QList<ZoneData>"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "updateZones",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoneId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newTemp",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "setTargetTemp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoneId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "modeIndex",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "setAcMode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoneId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "isOn",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "setZonePower",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "isOn",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 8,
+                        "name": "setAllZonesPower",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "name": "toggleAllZonesPower",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "zoneId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newTemp",
+                                "type": "float"
+                            }
+                        ],
+                        "index": 10,
+                        "name": "syncSetTempFromModbus",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "zonemodel.h",
+        "outputRevision": 69
+    }
+]
