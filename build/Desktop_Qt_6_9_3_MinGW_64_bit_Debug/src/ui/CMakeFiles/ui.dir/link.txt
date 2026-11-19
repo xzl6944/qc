@@ -1,2 +1,0 @@
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc libui.a CMakeFiles/ui.dir/ui_autogen/mocs_compilation.cpp.obj CMakeFiles/ui.dir/chartmodule.cpp.obj CMakeFiles/ui.dir/zonemodel.cpp.obj CMakeFiles/ui.dir/alarmmodel.cpp.obj CMakeFiles/ui.dir/ui_autogen/EWIEGA46WW/qrc_ac.cpp.obj
-C:\Qt\Tools\mingw1310_64\bin\ranlib.exe libui.a

@@ -1,3 +1,0 @@
-D:/project/ac_energy_saver/build/Desktop_Qt_6_9_3_MinGW_64_bit_Debug/src/ui/ui_autogen/include/../EWIEGA46WW/moc_alarmmodel.cpp.json
-D:/project/ac_energy_saver/build/Desktop_Qt_6_9_3_MinGW_64_bit_Debug/src/ui/ui_autogen/include/../EWIEGA46WW/moc_chartmodule.cpp.json
-D:/project/ac_energy_saver/build/Desktop_Qt_6_9_3_MinGW_64_bit_Debug/src/ui/ui_autogen/include/../EWIEGA46WW/moc_zonemodel.cpp.json

@@ -1,9 +1,0 @@
--rootPath
-D:/project/ac_energy_saver/src/app
--cmake-output
--output-file
-D:/project/ac_energy_saver/build/Desktop_Qt_6_9_3_MinGW_64_bit_Debug/src/app/.qt/qml_imports/App_conf.cmake
--importPath
-D:/project/ac_energy_saver/build/Desktop_Qt_6_9_3_MinGW_64_bit_Debug/src/app
--importPath
-C:/Qt/6.9.3/mingw_64/qml
